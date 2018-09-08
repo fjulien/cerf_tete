@@ -1,0 +1,46 @@
+*{
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.fond{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+@media (max-width: 480px){
+    .fond{
+      height: 0px;
+    }
+  }
+h1 {
+font-family: 'Oswald', sans-serif;
+margin-top: 50px;
+text-align: center;
+border-bottom: 25px;
+}
+.navigation{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+  }
+.rond{
+    border-radius: 5000px 5000px 5000px 5000px;
+}
+.text{
+    margin: auto;
+}
+.transparent{
+    margin-top: 125px;
+    background-color:rgba(250, 250, 250, 0.8);
+    border-radius: 50px 50px 50px 50px;
+    padding: 25px;
+}
+.pied{
+    background-color: #f8f9fa;
+}
+.borderRond{
+    border-radius: 50px 50px 50px 50px;  
+}
