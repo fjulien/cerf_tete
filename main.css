@@ -46,3 +46,11 @@ p {
 .taille{
     height: 550px;
 }
+
+.media{
+    width: auto;
+    height: 200px;
+    margin : 2em;
+    text-align: center;
+}
+
