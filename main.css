@@ -46,3 +46,10 @@ p {
 .taille{
     height: 550px;
 }
+.image_casque{
+    width: 400px;
+    height: 340px;
+}
+.block{
+    margin-top: 50px;
+}
