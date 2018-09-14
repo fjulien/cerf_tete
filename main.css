@@ -1,0 +1,48 @@
+
+h1,
+.navbar-brand,
+.navbar-nav a {
+
+
+    font-family: 'Oswald', sans-serif;
+
+	text-transform: uppercase;
+}
+.navbar {
+	background-color: #3e3e3e !important;
+}
+.navbar .navbar-brand:hover {
+	color: #FFF;
+}
+.navbar .navbar-nav li a {
+	color: #FFF !important;
+}
+.navbar-toggler {
+	background-color: #FFF;
+}
+
+.droite{
+    text-align: right;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cover_camarche{
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/839303/pexels-photo-839303.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    opacity: 0.9;
+}
+
+.text_camarche {
+    color:black;
+    padding-top: 5%;
+    font-size:20px;
+}
+.footer {
+    background-color: #3e3e3e !important;
+
+}
+.taille{
+    height: 550px;
+}
