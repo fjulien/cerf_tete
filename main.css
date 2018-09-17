@@ -46,6 +46,7 @@ p {
 .taille{
     height: 550px;
 }
+<<<<<<< HEAD
 .image_casque{
     width: 400px;
     height: 340px;
@@ -63,3 +64,13 @@ strong{
 a{
     color:white;
 }
+=======
+
+.media{
+    width: auto;
+    height: 200px;
+    margin : 2em;
+    text-align: center;
+}
+
+>>>>>>> 0f8619d818aa6c9ac1ac2276f946e93f94ca267c
