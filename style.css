@@ -1,0 +1,29 @@
+/*###GENERAL###*/
+
+p{
+    font-family: "Open Sans";
+    font-size: 1.1em;
+}
+
+h1,h2,h4,h5{
+    font-family: "Oswald";
+    color: #ff6600;
+}
+
+button{
+    font-family: "Open Sans";
+}
+/*###HEADER###*/
+
+#header{
+    font-family: "Oswald";
+    font-size:1.3em;  
+
+}
+
+
+/*###TECHNIQUE###*/
+
+.tab-font-style{
+    font-family: "Oswald";
+}
