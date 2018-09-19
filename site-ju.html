@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500|Open+Sans+Condensed:300|Open+Sans" rel="stylesheet">
 </head>
 
 <body>
     <br /><br />
-    <!--navibation-->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-        <a class="navbar-brand text-orange" href="#">WILD X</a>
+    <!--navigation-->
+    <nav id="header" class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand text-orange" href="#"><img class="img-fluid" src="image/wildx-white.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,10 +29,10 @@
                     <a class="nav-link" href="#utilisation">Utilisation</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#caractéristiques">Caractéristiques technique</a>
+                    <a class="nav-link" href="#caractéristiques">Caractéristiques techniques</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#qui">Qui sommes-nous ?</a>
+                    <a class="nav-link" href="#qui">Qui sommes nous ?</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -87,14 +88,16 @@
     </div>
 
     <!--utilisation-->
-    <div class="card" style="width:1250px" id="utilisation">
+    <div class="card" style="width:100%" id="utilisation">
         <img class="card-img-top img-fluid" src="image/landscape-336542_1920.jpg" alt="Card image">
-        <div class="card-img-overlay text-light">
+        <div class="card-img-overlay">
             <br /><br /><br />
-            <h4 class="card-title">Comment ça marche ?</h4>
-            <p class="card-text">Lecture des ondes cérébrales, transmissions via les "bois" (qui sont des antennes).
+            <h1 class="card-title">Comment ça marche ?</h1>
+            <p class="card-text">Lecture des ondes cérébrales, transmissions via les "bois" (qui sont des
+                antennes).
                 Une IA traduit ces ondes en langage
-                pour que le cerf comprenne. De plus, les ondes du cerf sont détectées et traduites pour être comprises
+                pour que le cerf comprenne. De plus, les ondes du cerf sont détectées et traduites pour être
+                comprises
                 par le porteur
                 du Wild Cerf-tête. 4 brevets ont été déposés !</p>
         </div>
@@ -153,18 +156,18 @@
     </div>
     <br />
 
-    <!--decriptif-->
+    <!--descriptif-->
     <div class="container">
         <div class="row">
             <!-- Nav tabs -->
-            <ul class="nav nav-tabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#Matériel">
+            <ul class="nav nav-tabs tab-font-style" role="tablist">
+                <li class="nav-item ">
+                    <a class="nav-link active text-dark" data-toggle="tab" href="#Matériel">
                         <h3>Matériel</h3>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#Alimentation">
+                    <a class="nav-link text-dark" data-toggle="tab" href="#Alimentation">
                         <h3>Alimentation</h3>
                     </a>
                 </li>
@@ -266,13 +269,14 @@
                     premier informé des évolutions de notre technologie.</p>
             </div>
         </div>
-        <div class="row align-items-center justify-content-between ">
+        <div class="row align-items-center justify-content-between mb-3">
             <div class="col-md-6 align-items-center">
                 <label for="validation"></label>
-                <input type="text" class="form-control" id="validation" placeholder="Adresse email" value="">
+                <input type="text" class="form-control mb-4 border border-secondary" id="validation" placeholder="Adresse email"
+                    value="">
             </div>
-            <div class="col-md-6 align-items-center">
-                <button type="button" class="btn btn-light border-secondary">Je souhaite recevoir plus imformations</button>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-outline-success">Recevoir plus d'informations</button>
             </div>
         </div>
     </div>
@@ -280,7 +284,7 @@
     <!--footer-->
     <footer class="container-fluid d-flex justify-content-end bg-secondary">
         <br /><br /><br />
-        <nav class=navbar-light ">
+        <nav class="navbar-light">
             <div class="" id="navbarNavAltMarkup">
                 <div class=" align-items-center row">
                     <a class="nav-item  col-2 " href="#"><img class="" style="width:50px;" src="image/twit.png"></a>
@@ -290,11 +294,23 @@
                 </div>
             </div>
         </nav>
-       
-        
+
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous">
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
