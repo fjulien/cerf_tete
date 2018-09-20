@@ -1,0 +1,49 @@
+.confirmation
+{
+    color: green;
+    font-style: italic;
+}
+
+.erreur
+{
+	font-style: italic;
+    color: red;
+    font-family: Open sans;
+}
+
+h2
+{
+    color: orange;
+    font-family: Oswald;
+}
+
+.backG
+{
+    background-image: url(/image/fond2.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 10%;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 70%;
+    margin: auto;
+    padding: 3%;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.textstd
+{
+    font-family: Open sans;
+}
+
+/*###FOOTER###*/
+
+#bambi-team{
+    font-family: "Oswald"
+}
