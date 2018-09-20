@@ -14,34 +14,25 @@ h1,h2,h4,h5{
 button{
     font-family: "Open Sans", serif;
 }
+
+
 /*###HEADER###*/
 
 #header{
     font-family: "Oswald", serif;
     font-size:1.2em;  
     text-transform: uppercase;
-
 }
-
-/*###UTILISATION###*/
-
-.bg-utilisation{
-    background-image: url("image/landscape-336542_1920.jpg");
-}
-
-#utilisation .card-img-overlay{
-    top: 10%;
-    left: 50%;
-    right: 10%
-}
-
 
 /*###TECHNIQUE###*/
 
 .tab-font-style{
     font-family: "Oswald";
 }
+
+
 /*#### UTILISATION###*/
+
 .paraf {
     color:white;
   }
@@ -56,3 +47,6 @@ button{
 
 /*###FOOTER###*/
 
+#bambi-team{
+    font-family: "Oswald"
+}
