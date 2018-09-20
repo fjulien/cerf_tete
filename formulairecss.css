@@ -7,12 +7,14 @@
 .erreur
 {
 	font-style: italic;
-	color: red;
+    color: red;
+    font-family: Open sans;
 }
 
 h2
 {
-	color: orange;
+    color: orange;
+    font-family: Oswald;
 }
 
 .backG
@@ -33,4 +35,15 @@ h2
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 
+}
+
+.textstd
+{
+    font-family: Open sans;
+}
+
+/*###FOOTER###*/
+
+#bambi-team{
+    font-family: "Oswald"
 }

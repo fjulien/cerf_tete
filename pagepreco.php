@@ -55,6 +55,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="formulairecss.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500|Open+Sans+Condensed:300|Open+Sans|Roboto" rel="stylesheet"> 
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 </head>
 
 <body>
@@ -67,7 +69,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Retour au site</a>
+                    <a class="nav-link textstd" href="index.php">Retour au site</a>
                 </li>
             </ul>
         </div>
@@ -92,7 +94,7 @@
                 <br>
                 <div class="row justify-content-md-center">
                     <div class="col-md-6">
-                        <label for="nom">Nom</label>
+                        <label class="textstd" for="nom">Nom</label>
                         <input class="form-control" type="text" name="nom" id="nom" placeholder="Musk" value="<?php if(isset($_POST['nom'])) {echo $_POST['nom'];}?>"
                             required />
                         <div class="erreur">
@@ -101,7 +103,7 @@
                     </div>
 
                     <div class="col-md-6">
-                        <label for="prenom">Prénom</label>
+                        <label class="textstd" for="prenom">Prénom</label>
                         <input class="form-control" type="text" name="prenom" id="prenom" placeholder="Elan" value="<?php if(isset($_POST['prenom'])) {echo $_POST['prenom'];}?>"
                             required />
                         <div class="erreur">
@@ -114,14 +116,14 @@
                 <br>
                 <div class="row justify-content-md-center">
                     <div class="col-md-6">
-                        <label for="email">Adresse email</label>
+                        <label class="textstd" for="email">Adresse email</label>
                         <input class="form-control" type="email" name="email" id="email" required placeholder="@" value="<?php if(isset($_POST['email'])) {echo $_POST['email'];}?>" />
                         <div class="erreur">
                             <?php echo $emailErr;?>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <label for="phone">Téléphone</label>
+                        <label  class="textstd" for="phone">Téléphone</label>
                         <input class="form-control" type="phone" name="phone" id="phone" required pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$"
                             placeholder="&#128241;" value="<?php if(isset($_POST['phone'])) {echo $_POST['phone'];}?>" />
                     </div>
@@ -135,10 +137,10 @@
                 </div>
                 <div>
                     <input type="checkbox" id="scales" name="feature" value="scales" required />
-                     <label for="conditionsDeVentes">J'accepte les conditions de vente et je demande le dossier de précommande !</label>
+                     <label class="textstd" for="conditionsDeVentes">J'accepte les conditions de vente et je demande le dossier de précommande !</label>
                 </div>
                 <br>
-                <input type="submit" class="btn btn-outline-dark btn-sm">
+                <input type="submit" class="btn btn-outline-success btn-lg">
             </form>
         </div>
     </div>
@@ -150,6 +152,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
-</body>
+    <div class="container-fluid width:100%">
+        <nav class="row flex-row nav bg-dark">
+            <div class="col-12 d-flex justify-content-end">
+                <a class="nav-item" href="#"><img class="img-fluid my-2 mx-2" src="image/twit.png"></a>
+                <a class="nav-item" href="#"><img class="img-fluid my-2 mx-2" src="image/face.png"></a>
+                <a class="nav-item" href="#"><img class="img-fluid my-2 mx-2" src="image/insta.png"></a>
+                <a id="bambi-team" class="nav-item text-light mt-4 ml-md-4 mr-3 text-nowrap d-none d-sm-block" href="https://www.youtube.com/watch?v=JUgj7tiPnD4" target="_blank">made with <i class="em em-heart"></i> by BAMBI team</a>
+            </div>
+        </nav>
+    </div>
 
+
+</body>
 </html>
