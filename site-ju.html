@@ -40,14 +40,14 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 ">
+            <form class="form-inline my-2 my-lg-0 " action=http://localhost:8000/pagepreco.php>
                 <button class="btn btn-outline-success my-2 my-sm-0" href="#">PRÉ-COMMANDER</button>
             </form>
         </div>
     </nav>
 
     <!--carousel-->
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide shadow-lg" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="image/pix-carousel-1.jpeg" alt="First slide">
@@ -74,10 +74,10 @@
         <br /><br /><br />
         <div class="row">
             <div class="col-md-6 text-right">
-                <h1>le wild cerf-tete ?</h1>
+                <h1>Le wild cerf-tete ?</h1>
                 <p>Le but de ce produit exclusif et révolutionnaire est de pouvoir communiquer avec les cerfs.</p>
                 <h1>Pourquoi ?</h1>
-                <p>Car le cerf est lr roi de la forêt, si on lui parle on accède donc à tous les autre animaux! Le but
+                <p>Car le cerf est le roi de la forêt, si on lui parle on accède donc à tous les autre animaux! Le but
                     est d'améliorer
                     la compréhension et donc les échange avec les animaux qui nous entourent. Ainsi, nous pourrons
                     mieux protéger notre
@@ -88,6 +88,7 @@
             </div>
         </div>
     </div>
+    <br/><br />
 
     <!--utilisation-->
     <div class="container-fluid">
@@ -122,7 +123,9 @@
                 <p>Existe en 4 langues (anglais, français, espagnol, japonais)</p>
                 <p>Design épuré, simple d'utilisation, novateur</p>
                 <p class="d-flex justify-content-between align-items-center"><strong>Tarif : 999€</strong>
+                    <form action=http://localhost:8000/pagepreco.php>
                     <button class="btn btn-outline-success my-2 my-sm-0 " href="#">PRÉ-COMMANDER</button>
+                    </form>
                 </p>
             </div>
         </div>
@@ -134,26 +137,26 @@
         <div class="row d-flex justify-content-around">
             <div class="card border-white" style="width: 10rem;">
                 <img class="card-img-top img-fluid" src="image/picto1.png" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text</p>
+                <div class="card-body text-center">
+                    <p class="card-text">Respect de la nature</p>
                 </div>
             </div>
             <div class="card border-white" style="width: 10rem;">
                 <img class="card-img-top img-fluid" src="image/picto2.png" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text</p>
+                <div class="card-body text-center">
+                    <p class="card-text">Localisation des cerfs</p>
                 </div>
             </div>
             <div class="card border-white" style="width: 10rem;">
                 <img class="card-img-top img-fluid" src="image/picto3.png" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text</p>
+                <div class="card-body text-center">
+                    <p class="card-text">Sons haute definition</p>
                 </div>
             </div>
             <div class="card border-white" style="width: 10rem;">
                 <img class="card-img-top img-fluid" src="image/picto4.png" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text</p>
+                <div class="card-body text-center">
+                    <p class="card-text">Vocabulaire avancé</p>
                 </div>
             </div>
         </div>
@@ -168,7 +171,7 @@
             <ul class="nav nav-tabs tab-font-style" role="tablist">
                 <li class="nav-item ">
                     <a class="nav-link active text-dark" data-toggle="tab" href="#Matériel">
-                        <h3>Matériel</h3>
+                        <h3>Composants</h3>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -271,13 +274,13 @@
         <br /><br /><br />
         <h1 class="text-center">RESTER EN CONTACT !</h1>
         <div class="row text-center">
-            <div class="col-12">
+            <div class="col-7   offset-md-3">
                 <p>Recevez régulièrement des informations sur le développement du Cerf-Tête connecté et restez le
                     premier informé des évolutions de notre technologie.</p>
             </div>
         </div>
-        <div class="row align-items-center justify-content-between mb-3">
-            <div class="col-md-6 align-items-center">
+        <div class="row align-items-center justify-content-md-center">
+            <div class="col-md-3 offset-md-3">
                 <label for="validation"></label>
                 <input type="email" name="email" class="form-control mb-4 border border-secondary" id="email"
                     placeholder="Adresse email" value="" required>
@@ -287,6 +290,8 @@
             </div>
         </div>
     </div>
+<br/>
+
     <div class="container-fluid width:100%">
         <nav class="row flex-row nav bg-dark">
             <div class="col-12 d-flex justify-content-end">
