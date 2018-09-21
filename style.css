@@ -51,8 +51,8 @@ hr.style1 {
   }
 .bgImg {
     background-image: url("image/headphone-wildx.jpg");
-    padding-top: 75px;
-    padding-bottom: 45px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -61,8 +61,8 @@ hr.style1 {
   }
 .newsBg {
     background-image: url("image/newsletterbg.jpg");
-    padding-top: 50px;
-    padding-bottom: 45px;
+    padding-top: 4%;
+    padding-bottom: 4%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -78,6 +78,7 @@ hr.style1 {
     font-family: "Oswald"
 }
 .laMarge{
-    margin-bottom: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
