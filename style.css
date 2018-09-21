@@ -51,10 +51,13 @@ hr.style1 {
   }
 .bgImg {
     background-image: url("image/headphone-wildx.jpg");
-    padding-top: 50px;
+    padding-top: 75px;
     padding-bottom: 45px;
     background-position: center;
-   
+    background-repeat: no-repeat;
+    background-size: 100%;
+    line-height: 120%;
+    text-shadow: 2px 2px 2px black;
   }
 .newsBg {
     background-image: url("image/newsletterbg.jpg");
@@ -71,3 +74,7 @@ hr.style1 {
 #bambi-team{
     font-family: "Oswald"
 }
+.laMarge{
+    margin-bottom: 25px;
+}
+
