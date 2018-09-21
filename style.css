@@ -2,7 +2,7 @@
 
 p{
     font-family: "Open Sans";
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 h1,h2,h4,h5{
@@ -10,11 +10,24 @@ h1,h2,h4,h5{
     color: #ff6600;
     text-transform: uppercase;
 }
+.navbar-nav {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
 
 button{
     font-family: "Open Sans", serif;
 }
-
+.btn {
+    text-transform: uppercase;
+    border-radius: 20px !important;
+}
+.row-blank {
+    height: 50px;
+}
+hr.style1 {
+	border-top: 1px solid lightgrey;
+}
 
 /*###HEADER###*/
 
@@ -36,13 +49,21 @@ button{
 .paraf {
     color:white;
   }
-    .bgImg {
+.bgImg {
     background-image: url("image/headphone-wildx.jpg");
-    padding-top: 40px;
-    padding-bottom: 35px;
+    padding-top: 50px;
+    padding-bottom: 45px;
     background-position: center;
     background-size: 100vw;
   }
+.newsBg {
+    background-image: url("image/newsletterbg.jpg");
+    padding-top: 50px;
+    padding-bottom: 45px;
+    background-position: center;
+    background-size: 100vw;
+}
+
 
 
 /*###FOOTER###*/
