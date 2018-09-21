@@ -57,14 +57,17 @@ hr.style1 {
     background-repeat: no-repeat;
     background-size: 100%;
     line-height: 120%;
-    text-shadow: 2px 2px 2px black;
+    
   }
 .newsBg {
     background-image: url("image/newsletterbg.jpg");
     padding-top: 50px;
     padding-bottom: 45px;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: 100%;
+    line-height: 120%;
+    back
 }
 
 
