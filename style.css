@@ -54,14 +54,14 @@ hr.style1 {
     padding-top: 50px;
     padding-bottom: 45px;
     background-position: center;
-    background-size: 100vw;
+   
   }
 .newsBg {
     background-image: url("image/newsletterbg.jpg");
     padding-top: 50px;
     padding-bottom: 45px;
     background-position: center;
-    background-size: 100vw;
+    background-size: 100%;
 }
 
 
