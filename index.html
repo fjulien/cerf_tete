@@ -9,8 +9,7 @@
         crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500|Open+Sans+Condensed:300|Open+Sans|Roboto"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Roboto" rel="stylesheet">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 </head>
 
@@ -40,14 +39,14 @@
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0 " action=http://localhost:8000/pagepreco.php>
-                <button class="btn btn-outline-success my-2 my-sm-0" href="#">PRÉ-COMMANDER</button>
+            <form class="form-inline my-2 my-lg-0 " action=http://localhost:8000/pagepreco.php> <button class="btn btn-outline-warning my-2 my-sm-0"
+                href="#">PRÉ-COMMANDER</button>
             </form>
         </div>
     </nav>
 
     <!--carousel-->
-    <div id="carouselExampleControls" class="carousel slide shadow-lg" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="image/pix-carousel-1.jpeg" alt="First slide">
@@ -70,10 +69,11 @@
     </div>
 
     <!--concept-->
-    <div class="container" id="concept">
+    <div class="container laMarge" id="concept">
         <br /><br /><br />
         <div class="row">
             <div class="col-md-6 text-right">
+                <br>
                 <h1>Le wild cerf-tete ?</h1>
                 <p>Le but de ce produit exclusif et révolutionnaire est de pouvoir communiquer avec les cerfs.</p>
                 <h1>Pourquoi ?</h1>
@@ -83,53 +83,77 @@
                     mieux protéger notre
                     environnement et nos ressources.</p>
             </div>
-            <div class="col-md-6">
-                <img class="img-fluid" src="image/cerf_tete2.png" alt="image">
+            <div class="col-md-6 ">
+                <img class="img-fluid " src="image/cerf_tete2.png" alt="image">
             </div>
         </div>
     </div>
-    <br/><br />
+    <!---->
 
+    
+
+   
     <!--utilisation-->
     <div class="container-fluid">
-        <div class="row bgImg ">
+        <div class="row bgImg">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"></div>
             <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                 <span class="paraf">
-                    <h3>Comment ça marche ?</h3>
+                    <h2>Comment ça marche ?</h2>
                     <p>Lecture des ondes cérébrales, transmissions via les "bois" (qui sont des
-                antennes) <br><br>Une IA traduit ces ondes en langage pour que le cerf comprenne <br><br>De plus, les
-                ondes du cerf sont détectées et traduites pour être comprises par le porteur du Wild Cerf-tête. 4
-                brevets ont été déposés !</p>
+                        antennes) <br><br>De
+                        plus, les
+                        ondes du cerf sont détectées et traduites pour être comprises par le porteur du Wild Cerf-tête.
+                        4
+                        brevets ont été déposés !</p>
                 </span></div>
             <div class="offset-1"></div>
-    
+
         </div>
     </div>
 
 
-    <!--caractéristiques-->
-    <div class="container" id="caractéristiques">
+    <!--caractéristiques alex-->
+
+    <div class="container laMarge" >
         <br /><br /><br />
         <div class="row">
-            <div class="col-md-6">
-                <img class="img-fluid" src="image/cerf_tete_teck.png" alt="image">
-            </div>
-            <div class="col-md-6">
-                <h1>Caractéristiques</h1>
+            <div class="col-md-6 text-right">
+                <h1>caractéristiques</h1>
                 <p>Casque bluetooth, écouteurs, autonomie 2h, batterie lithium, portée 50 mètres, relié à appli
                     smartphone (OS et
                     Android) pour retranscrire les messages, certifié conforme EU.</p>
                 <p>Existe en 4 langues (anglais, français, espagnol, japonais)</p>
-                <p>Design épuré, simple d'utilisation, novateur</p>
-                <p class="d-flex justify-content-between align-items-center"><strong>Tarif : 999€</strong>
-                    <form action=http://localhost:8000/pagepreco.php>
-                    <button class="btn btn-outline-success my-2 my-sm-0 " href="#">PRÉ-COMMANDER</button>
-                    </form>
-                </p>
+                <p>Design épuré, simple d'utilisation, novateur</p><br>
+
+                <div class="row align-items-center">
+                    <div class="col"><strong>Tarif : 999€</strong></div>
+                    <div class="col">
+                        <form action=http://localhost:8000/pagepreco.php> <button class="btn btn-warning my-2 my-sm-0 "
+                            href="#">PRÉ-COMMANDER</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img class="img-fluid" src="image/cerf_tete_teck.png" alt="image">
             </div>
         </div>
     </div>
+    
+
+    <!--/HR-->
+    <div class="container laMarge" >
+        <div class="row">
+            <div class="col">
+                <hr class="style1">
+            </div>
+        </div>
+    </div>
+   
+
+
 
 
     <!--image teck-->
@@ -138,31 +162,46 @@
             <div class="card border-white" style="width: 10rem;">
                 <img class="card-img-top img-fluid" src="image/picto1.png" alt="Card image cap">
                 <div class="card-body text-center">
-                    <p class="card-text">Respect de la nature</p>
+                    <p class="card-text">RESPECT DE LA NATURE</p>
                 </div>
             </div>
             <div class="card border-white" style="width: 10rem;">
                 <img class="card-img-top img-fluid" src="image/picto2.png" alt="Card image cap">
                 <div class="card-body text-center">
-                    <p class="card-text">Localisation des cerfs</p>
+                    <p class="card-text">LOCALISATION DES CERFS</p>
                 </div>
             </div>
             <div class="card border-white" style="width: 10rem;">
                 <img class="card-img-top img-fluid" src="image/picto3.png" alt="Card image cap">
                 <div class="card-body text-center">
-                    <p class="card-text">Sons haute definition</p>
+                    <p class="card-text">SONS HAUTE DEFINITION</p>
                 </div>
             </div>
             <div class="card border-white" style="width: 10rem;">
                 <img class="card-img-top img-fluid" src="image/picto4.png" alt="Card image cap">
                 <div class="card-body text-center">
-                    <p class="card-text">Vocabulaire avancé</p>
+                    <p class="card-text">VOCABULAIRE AVANCÉ</p>
                 </div>
             </div>
         </div>
     </div>
     <br />
 
+
+    <!--/HR-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <hr class="style1">
+            </div>
+        </div>
+    </div>
+    <!--espacement-->
+    <div class="container">
+        <div class="row-blank">
+            <div class="col"></div>
+        </div>
+    </div>
 
     <!--descriptif-->
     <div class="container">
@@ -250,47 +289,70 @@
         </div>
     </div>
 
-
-
+    <!--espacement-->
+    <div class="container">
+        <div class="row-blank">
+            <div class="col"></div>
+        </div>
+    </div>
+    <!--/HR-->
+    <div class="container laMarge">
+        <div class="row">
+            <div class="col">
+                <hr class="style1">
+            </div>
+        </div>
+    </div>
+  
 
     <!--qui-->
-    <div class="container" id="qui">
-        <br /><br /><br />
-        <div class="row align-items-center">
-            <div class="col-md-6 text-left ">
-                <h1>La société Wild X</h1>
+    <div class="container">
+        <div class="row">
+            <div class="offset-2 col-8 text-center">
+                <img class="img-fluid rounded-circle bg-light" src="image/elon_musk.jpg" alt="image">
+                <br><br>
+                <h1>La société Wild X</h1><br>
+
                 <p>A l'origine du concept de Cerf-tête connecté<br>Son PDG, Élan Musk, souhaite révolutionner le
                     rapport entre les hommes et les animaux, à l'aide de toute la technologie moderne que l'équipe R&D
                     de Wild X développe.</p>
             </div>
-            <div class="col-md-6 justify-content-center">
-                <img class="img-fluid rounded-circle shadow-lg bg-light" src="image/elon_musk.jpg" alt="image">
-            </div>
         </div>
     </div>
+        <!--espacement-->
+        <div class="container">
+                <div class="row-blank">
+                    <div class="col"></div>
+                </div>
+            </div>
 
-    <!--new letter-->
-    <div class="container" id="contact">
-        <br /><br /><br />
-        <h1 class="text-center">RESTER EN CONTACT !</h1>
-        <div class="row text-center">
-            <div class="col-7   offset-md-3">
-                <p>Recevez régulièrement des informations sur le développement du Cerf-Tête connecté et restez le
-                    premier informé des évolutions de notre technologie.</p>
+
+
+    <!--newsletter-->
+    <div class="container-fluid newsBg" id="contact">
+        <div class="row">
+            <div class="offset-1 offset-md-3 col-xs-12 col-md-6">
+                <h1 class="text-center">RESTER EN CONTACT !</h1><br>
+                <p class="text-center">Recevez régulièrement des informations sur le développement du Cerf-Tête connecté<br>
+                    et restez le premier informé des évolutions de notre technologie.</p>
             </div>
         </div>
-        <div class="row align-items-center justify-content-md-center">
-            <div class="col-md-3 offset-md-3">
-                <label for="validation"></label>
+        <div class="row align-items-center">
+            <div class="offset-1 offset-xl-4 col-10 col-xl-2 offset-md-2 col-md-4"> <label for="validation"></label>
                 <input type="email" name="email" class="form-control mb-4 border border-secondary" id="email"
-                    placeholder="Adresse email" value="" required>
-            </div>
-            <div class="col-md-6">
-                <button type="button" class="btn btn-outline-success">Recevoir plus d'informations</button>
+                    placeholder="Adresse email" value="" required></div>
+            <div class="offset-1 offset-md-0 col-12 col-md-6">
+                <button type="button" class="btn btn-outline-secondary">Recevoir plus d'informations</button>
+
             </div>
         </div>
+
     </div>
-<br/>
+ 
+
+
+    <!--newsletter-->
+
 
     <div class="container-fluid width:100%">
         <nav class="row flex-row nav bg-dark">
@@ -298,12 +360,14 @@
                 <a class="nav-item" href="#"><img class="img-fluid my-2 mx-2" src="image/twit.png"></a>
                 <a class="nav-item" href="#"><img class="img-fluid my-2 mx-2" src="image/face.png"></a>
                 <a class="nav-item" href="#"><img class="img-fluid my-2 mx-2" src="image/insta.png"></a>
-                <a id="bambi-team" class="nav-item text-light mt-4 ml-md-4 mr-3 text-nowrap d-none d-sm-block" href="https://www.youtube.com/watch?v=JUgj7tiPnD4" target="_blank">made with <i class="em em-heart"></i> by BAMBI team</a>
+                <a id="bambi-team" class="nav-item text-light mt-4 ml-md-4 mr-3 text-nowrap d-none d-sm-block" href="https://www.youtube.com/watch?v=JUgj7tiPnD4"
+                    target="_blank">made with <i class="em em-heart"></i> by BAMBI team</a>
             </div>
         </nav>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
