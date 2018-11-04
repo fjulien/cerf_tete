@@ -4,7 +4,7 @@
 
 Projet 1 realisé en équipe  pendant ma formation à la Wild Code School. 
 
-##Technologies utilisées : 
+## Technologies utilisées : 
 - HTML
 - CSS
 - Bootstrap
