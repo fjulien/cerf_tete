@@ -2,9 +2,10 @@
 
 ### Link gitPage  : [Cerf-Tete](https://fjulien.github.io/cerf_tete/ "Cerf-Tete") 
 
-Projet 1 realisé en équipe  pendant ma formation à la Wild Code School. 
+## Team 
 
-## Technologies utilisées : 
-- HTML
-- CSS
-- Bootstrap
+- Fettinger Julien
+- clembesso
+- Moureaux Mathias
+- alextom27
+- Ishaian
